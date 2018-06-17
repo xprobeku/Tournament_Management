@@ -1,0 +1,74 @@
+<resources>
+    <string name="app_name">Tournament Management</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="text_accounts">All Accounts</string>
+    <string name="hint_name">Name</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="text_login">Login</string>
+    <string name="text_register">Register</string>
+    <string name="error_message_name">Enter Full Name</string>
+    <string name="error_message_email">Enter Valid Email</string>
+    <string name="error_message_age">Enter Age</string>
+    <string name="error_message_password">Enter Password</string>
+    <string name="success_message">Registration Successful</string>
+    <string name="text_not_member">No account yet? Create one</string>
+    <string name="text_already_member">Already a member? Login</string>
+    <string name="error_email_exists">Email Already Exists</string>
+    <string name="error_password_match">Password Does Not Matches</string>
+    <string name="error_valid_email_password">Wrong Email or Password</string>
+    <string name="text_hello">Hello,</string>
+    <string name="text_title">Android Tournament manager</string>
+    <string name="btn_create_player">Players</string>
+    <string name="btn_create_tournament">Tournaments</string>
+    <string name="btn_exit">Exit</string>
+    <string name="all_players">All Players</string>
+    <string name="create_tournament">Tournaments</string>
+    <string name="create_players">Players</string>
+    <string name="add_player">Add New Player</string>
+    <string name="all_tournament">All tournaments</string>
+    <string name="add_tournament">Add Tournament</string>
+    <string name="hint_type">Type</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_description">Description</string>
+    <string name="already_a_member_login">Already a member? Login</string>
+    <string name="create_new_player">Create New Player</string>
+    <string name="back">Back</string>
+    <string name="create_new_tournament">Create New Tournament</string>
+    <string name="game_type">Game Type</string>
+    <string name="tournament_type">Tournament type</string>
+    <string name="player_type">Player type</string>
+    <string name="name_error">You cannot register player without name</string>
+    <string name="create_tournament_with_players">Create Tournament with Players</string>
+    <string name="choose_player">Choose player</string>
+    <string name="vs">VS</string>
+    <string name="next_player">Next Player</string>
+    <string name="match_result">Match Result</string>
+    <string name="previous">Previous</string>
+    <string name="next">Next</string>
+
+    <string-array name="type">
+        <item>Basketball</item>
+        <item>Football</item>
+        <item>Chess</item>
+        <item>Draughts</item>
+        <item>Other</item>
+    </string-array>
+
+    <string-array name="tournament_type">
+        <item>Swiss system</item>
+        <item>King of the hill</item>
+        <item>Group stage and Playoff</item>
+        <item>Playoff</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="start_tournament">Start tournament</string>
+    <string name="win">win</string>
+    <string name="lose">lose</string>
+    <string name="point">point</string>
+</resources>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="5dp"
+    android:background="@color/colorDialog">
+
+    <TextView
+        android:id="@+id/tv_add_tournament"
+        android:layout_gravity="center"
+        android:textSize="25sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/add_tournament"
+        android:textStyle="bold"
+        android:background="@color/colorDialogInput"/>
+
+    <android.support.v7.widget.AppCompatEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:ems="10"
+        android:layout_marginTop="10dp"
+        android:hint="@string/hint_name"
+        android:id="@+id/take_tournament_name"
+        android:background="@color/colorDialogInput" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal"
+        android:background="@color/colorDialogInput">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/game_type"
+            android:ems="10"/>
+
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/take_game_type"
+            android:popupBackground="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+
+        android:orientation="horizontal"
+        android:background="@color/colorDialogInput">
+
+        <android.support.v7.widget.AppCompatTextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Type"
+            android:ems="10"></android.support.v7.widget.AppCompatTextView>
+        <android.support.v7.widget.AppCompatSpinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/take_tournament_type"
+            android:popupBackground="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorDialogInput"
+        android:layout_marginTop="5dp"
+        android:id="@+id/dialogBtn_add_tournament"
+        android:text="@string/create_new_tournament"
+        />
+
+</LinearLayout>

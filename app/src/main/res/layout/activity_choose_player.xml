@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/layout_choose_player"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary">
+    <android.support.v7.widget.AppCompatTextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/choose_player"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:textAlignment="center"
+        />
+    <android.support.v7.widget.AppCompatButton
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/create_tournament_with_players"
+        android:background="@color/colorDialogInput"
+        android:id="@+id/btn_start_tournament"/>
+</LinearLayout>
